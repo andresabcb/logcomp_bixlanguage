@@ -1,0 +1,30 @@
+fn soma(x: i32, y: i32) -> i32
+{
+    devolver x + y;
+}
+
+fn Principal()
+{
+// v2.3 testing
+var x_1: i32;
+x_1 = 2;
+x_1 = soma(1, x_1);
+
+x_1 = Ler();
+se ((x_1 > 1) && !(x_1 < 1)) {
+    x_1 = 3;
+}
+então {
+    {
+    x_1 = (-20+30)*4*3/40;;;;; // teste de comentario
+    }
+}
+Imprimir(x_1);
+x_1 = Ler();
+se ((x_1 > 1) && !(x_1 < 1))
+    x_1 = 3;
+então
+    x_1 = (-20+30)*12/40;;;;;
+
+Imprimir(x_1);
+enquanto ((x_1 > 1) || (x_1 == 1)) {x_1 = x_1 - 1;Imprimir(x_1);}}
